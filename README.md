@@ -11,7 +11,7 @@ class TestYandexSearch(BaseTest):
 ```
 ## Информация
 1) Версия Python 3.8.10
-2) Бразуер GoogleChrome. Версия 91.0.4472.101
+2) Бразуер GoogleChrome версия 91.0.4472.101
 
 
 ## Инструкция по запуску тестов
