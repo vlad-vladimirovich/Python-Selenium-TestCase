@@ -7,7 +7,7 @@ class BasePage(object):
         self.timeout = 30
 
     def find_element(self, *locator):
-        """ Возвращает искомый элемент """
+        """ Возвращает искомый веб-элемент """
         return self.driver.find_element(*locator)
 
     def open(self, url):
