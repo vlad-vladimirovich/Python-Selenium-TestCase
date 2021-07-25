@@ -5,7 +5,7 @@ import time
 
 
 class MainPage(BasePage):
-    """ Производный от класса "Base_page". Он содержит методы,
+    """ Производный от класса "BasePage". Он содержит методы,
     которые будут использоваться для создания шагов тестирования
     """
 
@@ -14,7 +14,7 @@ class MainPage(BasePage):
         super().__init__(driver)
 
     def find_object(self):
-        """ Проверяет наличие поля поиска, водит в поиск 'Тензор' """
+        """ Проверяет наличие поля поиска, вводит в поиск 'Тензор' """
         global searchbar
         searchbar = self.find_element(*self.locator.SEARCH_BAR)
         time.sleep(2)
