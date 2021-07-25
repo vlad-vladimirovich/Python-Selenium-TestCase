@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 
 
 class MainPageLocators(object):
-    """ Класс содержащий все, необходимые нам элементы веб страницы """
+    """ Класс содержащий все необходимые нам элементы веб страницы """
     SEARCH_BAR = (By.CLASS_NAME, 'input__control.input__input.mini-suggest__input')
     SUGGEST_LIST = (By.CSS_SELECTOR, '.mini-suggest__popup.mini-suggest__popup_theme_flat.mini-suggest__popup_visible')
     SEARCH_RESULTS = (By.XPATH, '//*[@id="search-result"]')
